@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2294FF581653BAD100E137CE"
-               BuildableName = "KiwiTests.app"
-               BlueprintName = "KiwiTests"
-               ReferencedContainer = "container:KiwiTests.xcodeproj">
+               BuildableName = "KiwiCoreDataTests.app"
+               BlueprintName = "KiwiCoreDataTests"
+               ReferencedContainer = "container:KiwiCoreDataTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2294FF821653BAD100E137CE"
-               BuildableName = "KiwiTestsTests.octest"
-               BlueprintName = "KiwiTestsTests"
-               ReferencedContainer = "container:KiwiTests.xcodeproj">
+               BuildableName = "KiwiCoreDataTestsTests.octest"
+               BlueprintName = "KiwiCoreDataTestsTests"
+               ReferencedContainer = "container:KiwiCoreDataTests.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2294FF581653BAD100E137CE"
-            BuildableName = "KiwiTests.app"
-            BlueprintName = "KiwiTests"
-            ReferencedContainer = "container:KiwiTests.xcodeproj">
+            BuildableName = "KiwiCoreDataTests.app"
+            BlueprintName = "KiwiCoreDataTests"
+            ReferencedContainer = "container:KiwiCoreDataTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2294FF581653BAD100E137CE"
-            BuildableName = "KiwiTests.app"
-            BlueprintName = "KiwiTests"
-            ReferencedContainer = "container:KiwiTests.xcodeproj">
+            BuildableName = "KiwiCoreDataTests.app"
+            BlueprintName = "KiwiCoreDataTests"
+            ReferencedContainer = "container:KiwiCoreDataTests.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2294FF581653BAD100E137CE"
-            BuildableName = "KiwiTests.app"
-            BlueprintName = "KiwiTests"
-            ReferencedContainer = "container:KiwiTests.xcodeproj">
+            BuildableName = "KiwiCoreDataTests.app"
+            BlueprintName = "KiwiCoreDataTests"
+            ReferencedContainer = "container:KiwiCoreDataTests.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

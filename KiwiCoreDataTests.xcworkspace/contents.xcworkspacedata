@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:KiwiTests.xcodeproj">
+      location = "container:KiwiCoreDataTests.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Frameworks/Kiwi/Kiwi.xcodeproj">

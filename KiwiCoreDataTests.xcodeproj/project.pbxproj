@@ -94,14 +94,14 @@
 
 /* Begin PBXFileReference section */
 		2294002A1653C72900E137CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2294FF591653BAD100E137CE /* KiwiTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2294FF591653BAD100E137CE /* KiwiCoreDataTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCoreDataTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2294FF5D1653BAD100E137CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2294FF5F1653BAD100E137CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2294FF611653BAD100E137CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2294FF651653BAD100E137CE /* KiwiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiTests-Info.plist"; sourceTree = "<group>"; };
+		2294FF651653BAD100E137CE /* KiwiCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiCoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		2294FF671653BAD100E137CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2294FF691653BAD100E137CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2294FF6B1653BAD100E137CE /* KiwiTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiTests-Prefix.pch"; sourceTree = "<group>"; };
+		2294FF6B1653BAD100E137CE /* KiwiCoreDataTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiCoreDataTests-Prefix.pch"; sourceTree = "<group>"; };
 		2294FF6C1653BAD100E137CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2294FF6D1653BAD100E137CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2294FF6F1653BAD100E137CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -111,9 +111,9 @@
 		2294FF761653BAD100E137CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2294FF791653BAD100E137CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2294FF7C1653BAD100E137CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		2294FF831653BAD100E137CE /* KiwiTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2294FF831653BAD100E137CE /* KiwiCoreDataTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiCoreDataTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2294FF841653BAD100E137CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2294FF8C1653BAD100E137CE /* KiwiTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiTestsTests-Info.plist"; sourceTree = "<group>"; };
+		2294FF8C1653BAD100E137CE /* KiwiCoreDataTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiCoreDataTestsTests-Info.plist"; sourceTree = "<group>"; };
 		2294FF8E1653BAD100E137CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2294FF901653BAD100E137CE /* KiwiSenTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiSenTest.h; sourceTree = "<group>"; };
 		2294FF911653BAD100E137CE /* KiwiSenTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiSenTest.m; sourceTree = "<group>"; };
@@ -212,7 +212,7 @@
 		2294FF4E1653BAD100E137CE = {
 			isa = PBXGroup;
 			children = (
-				2294FF631653BAD100E137CE /* KiwiTests */,
+				2294FF631653BAD100E137CE /* KiwiCoreDataTests */,
 				2294FF8A1653BAD100E137CE /* KiwiTests */,
 				2294FF5C1653BAD100E137CE /* Frameworks */,
 				2294FF5A1653BAD100E137CE /* Products */,
@@ -222,8 +222,8 @@
 		2294FF5A1653BAD100E137CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2294FF591653BAD100E137CE /* KiwiTests.app */,
-				2294FF831653BAD100E137CE /* KiwiTestsTests.octest */,
+				2294FF591653BAD100E137CE /* KiwiCoreDataTests.app */,
+				2294FF831653BAD100E137CE /* KiwiCoreDataTestsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2294FF631653BAD100E137CE /* KiwiTests */ = {
+		2294FF631653BAD100E137CE /* KiwiCoreDataTests */ = {
 			isa = PBXGroup;
 			children = (
 				2294FF9B1653BAD700E137CE /* App delegate */,
@@ -249,16 +249,17 @@
 				2294FFB81653C6C400E137CE /* Third party */,
 				2294FF641653BAD100E137CE /* Supporting Files */,
 			);
+			name = KiwiCoreDataTests;
 			path = KiwiTests;
 			sourceTree = "<group>";
 		};
 		2294FF641653BAD100E137CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2294FF651653BAD100E137CE /* KiwiTests-Info.plist */,
+				2294FF651653BAD100E137CE /* KiwiCoreDataTests-Info.plist */,
 				2294FF661653BAD100E137CE /* InfoPlist.strings */,
 				2294FF691653BAD100E137CE /* main.m */,
-				2294FF6B1653BAD100E137CE /* KiwiTests-Prefix.pch */,
+				2294FF6B1653BAD100E137CE /* KiwiCoreDataTests-Prefix.pch */,
 				2294FF6F1653BAD100E137CE /* Default.png */,
 				2294FF711653BAD100E137CE /* Default@2x.png */,
 				2294FF731653BAD100E137CE /* Default-568h@2x.png */,
@@ -281,7 +282,7 @@
 		2294FF8B1653BAD100E137CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2294FF8C1653BAD100E137CE /* KiwiTestsTests-Info.plist */,
+				2294FF8C1653BAD100E137CE /* KiwiCoreDataTestsTests-Info.plist */,
 				2294FF8D1653BAD100E137CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -453,9 +454,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2294FF581653BAD100E137CE /* KiwiTests */ = {
+		2294FF581653BAD100E137CE /* KiwiCoreDataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2294FF951653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiTests" */;
+			buildConfigurationList = 2294FF951653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiCoreDataTests" */;
 			buildPhases = (
 				2294FF551653BAD100E137CE /* Sources */,
 				2294FF561653BAD100E137CE /* Frameworks */,
@@ -465,14 +466,14 @@
 			);
 			dependencies = (
 			);
-			name = KiwiTests;
+			name = KiwiCoreDataTests;
 			productName = KiwiTests;
-			productReference = 2294FF591653BAD100E137CE /* KiwiTests.app */;
+			productReference = 2294FF591653BAD100E137CE /* KiwiCoreDataTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2294FF821653BAD100E137CE /* KiwiTestsTests */ = {
+		2294FF821653BAD100E137CE /* KiwiCoreDataTestsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2294FF981653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiTestsTests" */;
+			buildConfigurationList = 2294FF981653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiCoreDataTestsTests" */;
 			buildPhases = (
 				2294FF7E1653BAD100E137CE /* Sources */,
 				2294FF7F1653BAD100E137CE /* Frameworks */,
@@ -484,9 +485,9 @@
 			dependencies = (
 				2294FF891653BAD100E137CE /* PBXTargetDependency */,
 			);
-			name = KiwiTestsTests;
+			name = KiwiCoreDataTestsTests;
 			productName = KiwiTestsTests;
-			productReference = 2294FF831653BAD100E137CE /* KiwiTestsTests.octest */;
+			productReference = 2294FF831653BAD100E137CE /* KiwiCoreDataTestsTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -498,7 +499,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Tim;
 			};
-			buildConfigurationList = 2294FF531653BAD100E137CE /* Build configuration list for PBXProject "KiwiTests" */;
+			buildConfigurationList = 2294FF531653BAD100E137CE /* Build configuration list for PBXProject "KiwiCoreDataTests" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -510,8 +511,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2294FF581653BAD100E137CE /* KiwiTests */,
-				2294FF821653BAD100E137CE /* KiwiTestsTests */,
+				2294FF581653BAD100E137CE /* KiwiCoreDataTests */,
+				2294FF821653BAD100E137CE /* KiwiCoreDataTestsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -633,7 +634,7 @@
 /* Begin PBXTargetDependency section */
 		2294FF891653BAD100E137CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2294FF581653BAD100E137CE /* KiwiTests */;
+			target = 2294FF581653BAD100E137CE /* KiwiCoreDataTests */;
 			targetProxy = 2294FF881653BAD100E137CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -730,9 +731,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KiwiTests/KiwiTests-Prefix.pch";
-				INFOPLIST_FILE = "KiwiTests/KiwiTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KiwiTests/KiwiCoreDataTests-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTests/KiwiCoreDataTests-Info.plist";
+				PRODUCT_NAME = KiwiCoreDataTests;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -741,9 +742,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KiwiTests/KiwiTests-Prefix.pch";
-				INFOPLIST_FILE = "KiwiTests/KiwiTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KiwiTests/KiwiCoreDataTests-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTests/KiwiCoreDataTests-Info.plist";
+				PRODUCT_NAME = KiwiCoreDataTests;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -758,9 +759,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiwiTests/KiwiTests-Prefix.pch";
-				INFOPLIST_FILE = "KiwiTestsTests/KiwiTestsTests-Info.plist";
+				INFOPLIST_FILE = "KiwiTestsTests/KiwiCoreDataTestsTests-Info.plist";
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KiwiCoreDataTestsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
@@ -777,9 +778,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiwiTests/KiwiTests-Prefix.pch";
-				INFOPLIST_FILE = "KiwiTestsTests/KiwiTestsTests-Info.plist";
+				INFOPLIST_FILE = "KiwiTestsTests/KiwiCoreDataTestsTests-Info.plist";
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KiwiCoreDataTestsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
@@ -789,7 +790,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2294FF531653BAD100E137CE /* Build configuration list for PBXProject "KiwiTests" */ = {
+		2294FF531653BAD100E137CE /* Build configuration list for PBXProject "KiwiCoreDataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2294FF931653BAD100E137CE /* Debug */,
@@ -798,7 +799,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2294FF951653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiTests" */ = {
+		2294FF951653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiCoreDataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2294FF961653BAD100E137CE /* Debug */,
@@ -807,7 +808,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2294FF981653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiTestsTests" */ = {
+		2294FF981653BAD100E137CE /* Build configuration list for PBXNativeTarget "KiwiCoreDataTestsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2294FF991653BAD100E137CE /* Debug */,
