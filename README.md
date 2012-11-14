@@ -14,7 +14,7 @@ Installation instructions
 
     `git clone git@github.com:timd/Kiwi-CoreData-Harness.git`
 	
-2. Initialise the Kiwi submodules: 
+2. Initialise the Kiwi and MagicalRecord submodules: 
 
     `git submodule init`
 	
