@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Tim. All rights reserved.
 //
 
-#import "KiwiTestsTests.h"
+#import "KiwiSenTest.h"
 
-@implementation KiwiTestsTests
+@implementation KiwiSenTest
 
 - (void)setUp
 {
@@ -24,9 +24,8 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in KiwiTestsTests");
+- (void)testExample {
+    STAssertTrue(YES, @"Should be YES, got NO");
 }
 
 @end

@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface KiwiTestsTests : SenTestCase
+@interface KiwiSenTest : SenTestCase
 
 @end
