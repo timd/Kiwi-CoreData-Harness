@@ -7,10 +7,16 @@
 //
 
 #import "Kiwi.h"
+#import "CoreData+MagicalRecord.h"
 
 SPEC_BEGIN(KiwiTests)
 
 describe(@"Some Kiwi tests", ^{
+    
+    beforeEach (^{
+        [MagicalRecord setDefaultModelFromClass:[self class]];
+        [MagicalRecord setupCoreDataStackWithInMemoryStore];
+    });
     
     it(@"should work", ^{
         
@@ -20,6 +26,11 @@ describe(@"Some Kiwi tests", ^{
         [[theValue(a+b) should] equal:theValue(32)];
         
     });
+    
+    afterEach(^{
+        [MagicalRecord cleanUp];
+    });
+    
 });
 
 SPEC_END
